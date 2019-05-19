@@ -1,5 +1,4 @@
 @csrf
-@method('PUT')
 
 @if (session('laravel-password-update-success'))
 @include($success_template, ['success_text' => session('laravel-password-update-success')])
