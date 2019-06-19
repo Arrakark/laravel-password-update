@@ -1,4 +1,4 @@
-<form class="form-horizontal" method="post" action="{{route('password.update')}}">
+<form class="form-horizontal" method="post" action="{{route('password.new')}}">
 
   @include('laravel-password-update::form-includes', [
     'success_template' => 'laravel-password-update::bootstrap3.partials.success',
